@@ -5,7 +5,7 @@ import contextlib
 import re
 import logging
 
-from aioredis import Redis
+from redis.asyncio import Redis
 from decouple import config
 from telethon import TelegramClient, events, Button, types, functions, errors
 
